@@ -31,7 +31,11 @@
               <!-- small box -->
               <div class="small-box bg-green">
                 <div class="inner">
-                  <h3>ProfileOne</h3>
+                  <h3> <?php 
+                  $q = $this->db->query("select * from event where school_id="._get_current_user_id($this));
+                                    $event =  $q->result();
+                                    echo count($event);
+                  ?></h3>
                   <p>School Event</p>
                 </div>
                 <div class="icon">
