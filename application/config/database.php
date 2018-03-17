@@ -5,11 +5,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'	   => '',
     'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => 'LaravelYogi!1998',
-	'database' => 'profileone',
+	'database' => 'proone',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
