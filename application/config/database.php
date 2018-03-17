@@ -10,7 +10,7 @@ $db['default'] = array(
 	'username' => 'root',
 	'password' => 'LaravelYogi!1998',
 	'database' => 'profileone',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
